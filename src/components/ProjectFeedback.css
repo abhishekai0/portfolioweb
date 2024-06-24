@@ -1,0 +1,51 @@
+#project-feedback {
+    max-width: 100%;
+    margin: 10 auto;
+    padding: 10px;
+    border: 3px solid;
+    border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet) 1;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(113, 110, 110, 0.468);
+}
+
+.post-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 5px rgba(148, 133, 133, 0.595);
+   ;
+}
+
+.post-image {
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.post-description {
+    margin: 10px 10;
+    text-align: center;
+}
+
+.post-description a {
+    color: #007bff; /* Default link color */
+    text-decoration: none;
+    font-weight: bold; /* Bold font for GitHub link */
+}
+
+.post-description a:hover {
+    text-decoration: underline;
+    color: darkblue; /* Dark blue color on hover */
+}
+.light {
+    background-color: #ffffff; /* Light mode background color */
+    color: #333333; /* Light mode text color */
+    box-shadow: 0 4px 5px rgba(14, 13, 13, 0.932);
+}
+
+.dark {
+    background-color: #333333; /* Dark mode background color */
+    color: #ffffff; /* Dark mode text color */
+    box-shadow: 0 4px 5px rgba(244, 242, 242, 0.932);
+}

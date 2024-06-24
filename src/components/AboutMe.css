@@ -1,0 +1,30 @@
+.about-me-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .details-table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 60%;
+  }
+  
+  .details-table td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .details-table td:first-child {
+    font-weight: bold;
+    text-align: right;
+    padding-right: 15px;
+  }
+  

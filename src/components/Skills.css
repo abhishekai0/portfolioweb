@@ -1,0 +1,45 @@
+#skills {
+    padding: 20px;
+    text-align: center;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.skill-box {
+    border: 2px solid transparent;
+    border-image: linear-gradient(45deg, red, yellow, green, blue, purple);
+    border-image-slice: 1;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.skill-box:hover {
+    transform: scale(1.05);
+}
+
+.skill-box h3 {
+    margin-bottom: 10px;
+}
+
+.skill-box p {
+    margin: 0;
+}
+
+.skill-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.skill-icon {
+    font-size: 30px;
+    margin-right: 10px;
+}

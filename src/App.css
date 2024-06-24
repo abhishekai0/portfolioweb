@@ -1,0 +1,33 @@
+.app {
+    transition: background-color 0.3s ease; /* Smooth transition for mode change */
+}
+
+.light {
+    background-color: #ffffff; /* Light mode background color */
+    color: #333333; /* Light mode text color */
+}
+
+.dark {
+    background-color: #333333; /* Dark mode background color */
+    color: #f7e309; /* Dark mode text color */
+}
+
+.mode-toggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #0c0d0e;
+    color: #332b2b;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mode-toggle:hover {
+    background-color: #d8db06;
+}
